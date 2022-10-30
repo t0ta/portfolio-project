@@ -1,9 +1,64 @@
-/* font-family: 'DM Serif Text', serif;
-font-family: 'Quicksand', sans-serif; */
-h1 {
-  font-family: "DM Serif Text", serif;
+:root {
+  --headdings-font-family: "DM Serif Text", serif;
+  --default-font-family: "Quicksand", sans-serif;
+  --primary-bckground-color: #e1dfde;
+  --default-text-color: #1b1b1b;
 }
 
-h2 {
-  font-family: "Quicksand", sans-serif;
+body {
+  background: var(--primary-bckground-color);
+  font-family: var(--default-font-family);
+  color: var(--default-text-color);
+}
+
+.hero {
+  text-transform: uppercase;
+
+  margin: 150px 250px;
+}
+
+.hero-primary {
+  font-family: var(--headdings-font-family);
+  font-size: 70px;
+  direction: rtl;
+}
+
+.hero-secondary {
+  font-size: 50px;
+}
+
+.hero-paragraph {
+  font-size: 24px;
+  direction: rtl;
+}
+
+.hero-button {
+  border-radius: 30px;
+  background: var(--default-text-color);
+  color: var(--primary-bckground-color);
+  text-decoration: none;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: center;
+  width: 200px;
+}
+
+.hero-button:hover {
+  opacity: 0.8;
+  color: var(--primary-bckground-color);
+}
+
+.footer {
+  font-size: 25px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.social-media-icon {
+  text-decoration: none;
+  color: var(--default-text-color);
+}
+
+.social-media-icon:hover {
+  opacity: 0.8;
 }
