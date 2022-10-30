@@ -9,12 +9,12 @@ body {
   background: var(--primary-bckground-color);
   font-family: var(--default-font-family);
   color: var(--default-text-color);
+  padding-bottom: 50px;
 }
 
 .hero {
   text-transform: uppercase;
-
-  margin: 150px 250px;
+  margin: 150px 250px 100px 250px;
 }
 
 .hero-primary {
@@ -32,7 +32,7 @@ body {
   direction: rtl;
 }
 
-.hero-button {
+.default-button {
   border-radius: 30px;
   background: var(--default-text-color);
   color: var(--primary-bckground-color);
@@ -43,11 +43,27 @@ body {
   width: 200px;
 }
 
-.hero-button:hover {
+.default-button:hover {
   opacity: 0.8;
   color: var(--primary-bckground-color);
 }
 
+.project-featuring {
+  text-align: center;
+  margin-bottom: 60px;
+  font-size: 20px;
+}
+
+.headdigs {
+  font-family: var(--headdings-font-family);
+}
+.project-description {
+  line-height: 1.7;
+}
+
+.project-image {
+  border-radius: 4px;
+}
 .footer {
   font-size: 25px;
   text-align: center;
@@ -61,4 +77,6 @@ body {
 
 .social-media-icon:hover {
   opacity: 0.8;
+  font-size: 35px;
+  transition: all 300ms ease-in-out;
 }
