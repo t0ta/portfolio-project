@@ -50,13 +50,14 @@ body {
 
 .project-featuring {
   text-align: center;
-  margin-bottom: 60px;
+  margin-bottom: 80px;
   font-size: 20px;
 }
 
 .headdigs {
   font-family: var(--headdings-font-family);
 }
+
 .project-description {
   line-height: 1.7;
 }
@@ -64,6 +65,7 @@ body {
 .project-image {
   border-radius: 4px;
 }
+
 .footer {
   font-size: 25px;
   text-align: center;
@@ -79,4 +81,35 @@ body {
   opacity: 0.8;
   font-size: 35px;
   transition: all 300ms ease-in-out;
+}
+
+@media (max-width: 1300px) {
+  body {
+    text-align: center;
+  }
+  .hero {
+    margin: 30px 0;
+  }
+  .hero-primary {
+    font-size: 40px;
+    text-align: center;
+    margin: 30px 0;
+  }
+
+  .hero-secondary {
+    font-size: 20px;
+  }
+
+  .hero-paragraph {
+    font-size: 18px;
+    margin: 20px 0;
+  }
+
+  .responsive-button {
+    display: flex;
+    justify-content: center;
+  }
+  .project-featuring {
+    margin-bottom: 20px;
+  }
 }
