@@ -105,8 +105,9 @@ body {
   }
 
   .hero-paragraph {
-    font-size: 18px;
-    margin: 20px 0;
+    /* font-size: 18px;
+    margin: 20px 0; */
+    display: none;
   }
 
   .responsive-button {
