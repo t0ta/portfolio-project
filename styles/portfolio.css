@@ -64,6 +64,7 @@ body {
 
 .project-description {
   line-height: 1.7;
+  margin-right: 30px;
 }
 
 .project-image {
@@ -114,5 +115,8 @@ body {
   }
   .project-featuring {
     margin-bottom: 20px;
+  }
+  .project-description {
+    margin-right: 0;
   }
 }
