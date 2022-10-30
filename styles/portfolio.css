@@ -53,6 +53,10 @@ body {
   margin-bottom: 80px;
   font-size: 20px;
 }
+.arrow-icon {
+  font-size: 40px;
+  margin-top: 10px;
+}
 
 .headdigs {
   font-family: var(--headdings-font-family);
