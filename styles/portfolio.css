@@ -1,2 +1,9 @@
 /* font-family: 'DM Serif Text', serif;
 font-family: 'Quicksand', sans-serif; */
+h1 {
+  font-family: "DM Serif Text", serif;
+}
+
+h2 {
+  font-family: "Quicksand", sans-serif;
+}
