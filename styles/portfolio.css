@@ -54,11 +54,13 @@ body {
   justify-content: center;
   margin-bottom: 70px;
 }
+
 .project-featuring {
   text-align: center;
   margin-bottom: 80px;
   font-size: 20px;
 }
+
 .arrow-icon {
   font-size: 40px;
   margin-top: 10px;
@@ -113,13 +115,35 @@ body {
   border-radius: 4px;
 }
 
+.card-body {
+  background: rgb(27, 27, 27, 0.4);
+  color: var(--default-text-color);
+  text-align: left;
+}
+
+.contact-list {
+  list-style: none;
+}
+
+.contact-link {
+  text-decoration: none;
+  color: var(--default-text-color);
+}
+
+.contact-link:hover {
+  color: var(--default-text-color);
+  font-weight: 500;
+}
+
 @media (max-width: 1000px) {
   body {
     text-align: center;
   }
+
   .hero {
     margin: 30px 0;
   }
+
   .hero-primary {
     font-size: 40px;
     text-align: center;
@@ -138,9 +162,11 @@ body {
     display: flex;
     justify-content: center;
   }
+
   .project-featuring {
     margin-bottom: 20px;
   }
+
   .project-description {
     margin-right: 0;
   }
