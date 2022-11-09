@@ -144,6 +144,9 @@ body {
   .project-description {
     margin-right: 0;
   }
+  .content h1 {
+    font-size: 45px;
+  }
 }
 @media (max-width: 1300px) {
   .content {
