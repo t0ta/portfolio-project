@@ -14,7 +14,7 @@ body {
 
 .hero {
   text-transform: uppercase;
-  margin: 150px 250px 100px 250px;
+  margin: 100px 250px 100px 250px;
 }
 
 .hero-primary {
@@ -99,7 +99,7 @@ body {
 }
 
 .content {
-  margin: 150px 250px 0 250px;
+  margin: 100px 250px 0 250px;
 }
 
 .content h1 {
@@ -133,6 +133,41 @@ body {
 .contact-link:hover {
   color: var(--default-text-color);
   font-weight: 500;
+}
+
+.navigation {
+  padding: 20px 0 0 0;
+}
+.navigation-list {
+  list-style: none;
+  display: inline;
+  padding: 0;
+  margin: 0;
+}
+
+.navigation-list li {
+  display: inline;
+}
+
+.navigation-list a,
+.navigation-name {
+  text-decoration: none;
+  color: var(--default-text-color);
+  margin-right: 20px;
+}
+
+.navigation-name:hover {
+  color: var(--default-text-color);
+  font-weight: 600;
+}
+
+.navigation-list a:hover {
+  font-weight: 600;
+  color: #ff7e4f;
+}
+.active {
+  font-weight: 600;
+  /* color: #ff7e4f; */
 }
 
 @media (max-width: 1000px) {
