@@ -90,16 +90,17 @@ body {
 .social-media-icon {
   text-decoration: none;
   color: var(--default-text-color);
+  transition: all 300ms ease-in-out;
 }
 
 .social-media-icon:hover {
   opacity: 0.8;
   font-size: 35px;
-  transition: all 300ms ease-in-out;
+  color: #ff7e4f;
 }
 
 .content {
-  margin: 100px 250px 0 250px;
+  margin: 100px 200px 0 200px;
 }
 
 .content h1 {
@@ -155,6 +156,7 @@ body {
   text-decoration: none;
   color: var(--default-text-color);
   margin-right: 20px;
+  transition: all 150ms ease-in-out;
 }
 
 .navigation-name:hover {
