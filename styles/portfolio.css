@@ -176,6 +176,16 @@ body {
 .accent {
   color: #ff7e4f;
 }
+.footer-info-links {
+  text-decoration: none;
+  color: #ff7e4f;
+  font-weight: 500;
+}
+
+.footer-info-links:hover {
+  color: var(--default-text-color);
+  text-decoration: underline;
+}
 
 @media (max-width: 1000px) {
   body {
